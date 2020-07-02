@@ -2,7 +2,7 @@
 
 # compatible with lower version python
 
-"""specify inputs of pull downs here (bait/pray protein names, concentrations, and molecular weights): """
+"""specify inputs of pulldowns here (bait/pray protein names, concentrations, and molecular weights): """
 # dictionary of lists: [bait_protein_names, pray_protein_names],
 # for nth pull down, add element n to the dictionary:[bait , pray]
 proteins = {1:['bait1', 'pray1'], 2:['bait2', 'pray2']}
@@ -16,7 +16,7 @@ pray_weights = {'pray1': 15549.81, 'pray2': 15549.81}
 pray_concentrations = {'pray1': 4.65, 'pray2': 4.65}
 
 
-"""default values pull downs, can be customized if needed: """
+"""default values of pulldowns, can be customized if needed: """
 mol_excess = 5
 input_vol = 200  # uL
 input_concentration = 0.0833  # unit: mg/ml
