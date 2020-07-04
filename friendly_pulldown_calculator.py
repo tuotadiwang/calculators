@@ -17,7 +17,7 @@ pray_weights = {}
 # dictionary of pray_protein_names : molecular concentration in mg/ml
 pray_concentrations = {}
 
-n = input("How many pulldowns ?")
+n = input("How many pulldowns? ")
 pulldown_inputs_open = True
 while pulldown_inputs_open:
     for i in range(int(n)):
